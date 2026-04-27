@@ -23,11 +23,11 @@ location mechanism.
 
 ## Architecture
 
-<a href="docs/images/architecture-azure.svg">
+<a href="https://raw.githubusercontent.com/AI-GBB-HLS-IP/ecommerce-mcp-solution-accelerator/master/docs/images/architecture-azure.svg">
   <img src="docs/images/architecture-azure.svg" alt="E-Commerce MCP Solution Accelerator — Azure architecture (production path)" width="100%" />
 </a>
 
-<sub>Click the diagram to open it full-size.</sub>
+<sub>Click the diagram to open it full-size in a new tab.</sub>
 
 ```
 ┌───────────────────────────────────────────────────────────┐
