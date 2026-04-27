@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1480 880" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" role="img" aria-label="E-Commerce MCP Solution Accelerator — Azure reference architecture">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1820 880" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" role="img" aria-label="E-Commerce MCP Solution Accelerator — Azure reference architecture">
   <title>E-Commerce MCP Solution Accelerator — Azure reference architecture (production path)</title>
   <desc>A Python client calls a Microsoft Foundry agent over the Responses API. The agent uses an MCPTool to call a Playwright MCP server hosted on Azure Container Apps. The container image comes from the public Microsoft Container Registry (mcr.microsoft.com/playwright). Headless Chromium browses target e-commerce sites. Authentication uses Microsoft Entra ID via DefaultAzureCredential / managed identity. Observability is provided by the Microsoft Foundry portal. Screenshot persistence in Azure Blob Storage is optional.</desc>
 
@@ -345,10 +345,10 @@
 
   <!-- Legend / Data flow -->
   <g transform="translate(40,660)">
-    <rect width="1400" height="200" class="legend-box"/>
-    <text x="20" y="26" class="legend-title">Data flow</text>
+    <rect width="1740" height="200" class="legend-box"/>
+    <text x="30" y="26" class="legend-title">Data flow</text>
 
-    <g transform="translate(20,42)">
+    <g transform="translate(30,42)">
       <circle cx="11" cy="11" r="11" class="step"/><text x="11" y="11" class="step-text">1</text>
       <text x="32" y="15" class="legend-item">Client acquires a token from Microsoft Entra ID via DefaultAzureCredential / managed identity.</text>
 
@@ -368,7 +368,7 @@
       <text x="32" y="150" class="legend-item">Optional: container persists screenshots to Azure Blob Storage. Foundry portal natively shows agent runs, traces, tokens &amp; cost.</text>
     </g>
 
-    <g transform="translate(740,42)">
+    <g transform="translate(1100,42)">
       <text x="0" y="0"   class="legend-title">Notes</text>
       <text x="0" y="24"  class="legend-item">• Infra defined in production/infra/main.bicep; deployed by infra/deploy.sh.</text>
       <text x="0" y="44"  class="legend-item">• Identity: Foundry agent uses a system-assigned managed identity for ACA invocation.</text>
