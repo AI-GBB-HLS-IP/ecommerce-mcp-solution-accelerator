@@ -23,6 +23,8 @@ location mechanism.
 
 ## Architecture
 
+![E-Commerce MCP Solution Accelerator — Azure architecture (production path)](docs/images/architecture-azure.svg)
+
 ```
 ┌───────────────────────────────────────────────────────────┐
 │                    Your Python Code                       │
